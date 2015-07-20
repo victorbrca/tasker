@@ -1,0 +1,82 @@
+<TaskerData sr="" dvi="1" tv="4.7u1m">
+	<Task sr="task120">
+		<cdate>1408119859167</cdate>
+		<edate>1437409293554</edate>
+		<id>120</id>
+		<nme>DynDNS</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOIP_USER</Str>
+			<Str sr="arg1" ve="3">Username</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOIP_PASSWORD</Str>
+			<Str sr="arg1" ve="3">Password</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOIP_DOMAIN</Str>
+			<Str sr="arg1" ve="3">Hostname.noip.me</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%wifi_info</Str>
+			<Str sr="arg1" ve="3">%WIFII</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%new_line</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%wifi_info</Str>
+			<Str sr="arg1" ve="3">%new_line</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%wifi_info6</Str>
+			<Str sr="arg1" ve="3">:</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%wifi_info62</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">http://%NOIP_USER:%NOIP_PASSWORD@dynupdate.no-ip.com</Str>
+			<Str sr="arg1" ve="3">/nic/update</Str>
+			<Str sr="arg2" ve="3">hostname=%NOIP_DOMAIN
+myip=%wifi_info622</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</Str>
+			<Int sr="arg5" val="15"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">DynDNS update status:
+%HTTPD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
